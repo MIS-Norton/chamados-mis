@@ -6,3 +6,14 @@ body{
     background-position: center;
 }
 
+.btn_link {
+    background-color: #520303;
+    color: white;
+    transition: opacity 0.3s ease;
+}
+
+.btn_link:hover {
+    opacity: 0.75;
+    background-color: #520303 !important; /* Garante que a cor não seja sobrescrita */
+    color: white !important;
+}
